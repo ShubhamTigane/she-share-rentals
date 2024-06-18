@@ -1,4 +1,15 @@
 {
+
+  "name": "she-share-rentals-backend-app",
+  "version": "1.0.0",
+  "description": "Backend server for your application",
+  "main": "index.js",  
+  "scripts": {
+    "start": "node index.js",  
+    "dev": "nodemon index.js"  
+  },
+
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",

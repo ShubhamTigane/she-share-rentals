@@ -9,7 +9,7 @@ const PlaceGallery = ({place}) => {
     if (showAllPhotos) {
         return (
             <div className="absolute inset-0 bg-purple-400 text-white min-h-screen">
-                <div className="bg-pink-400 p-8 grid gap-4">
+                <div className="bg-gray-800 p-8 grid gap-4">
                     <div>
                         <h2 className="text-3xl mr-48">Photos of {place.title}</h2>
                         <button onClick={() => setShowAllPhotos(false)} className="fixed right-12 top-8 flex gap-1 py-2 px-4 rounded-2xl shadow shadow-black bg-white text-black">
